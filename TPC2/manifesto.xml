@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC2: </titulo>
+        <data>27/02/2022</data>
+        <autor>
+            <id>PG47225</id>
+            <nome>Guilherme da Silva Amorim Martins</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Este trabalho consiste na implementação de um servidor NodeJS que criará páginas HTML com informação do dataset fornecido</p>
+        <p>Utilizei um script em Python para gerar as diversas páginas de forma automática</p>
+        <p>A página de filmes permite visualizar todos os filmes existentes no dataset, e a página de atores todos os atores.</p>
+        <p>Cada registo de filme mostra o ano em que foi realizado, o genre do filme e os atores que nele participaram.</p>
+        <p>A partir de cada registo é possível visualizar o perfil de cada ator.</p>
+        <p>No perfil de cada ator tem todos os filmes em que participou, sendo possível aceder ao registo dos mesmos através das páginas dos atores.</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <url>parser.py</url>
+            <texto>Script responsável por fazer o parsing do dataset e gerar as páginas HTML.</texto>
+        </resultado>
+        <resultado>
+            <url>fileserver.js</url>
+            <texto>Programa que inicia e mantém o servidor.</texto>
+        </resultado>
+        <resultado>
+            <url>cinemaATP.json</url>
+            <texto>Dataset</texto>
+        </resultado>
+    </resultados>
+</doc>
