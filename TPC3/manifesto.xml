@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC3: </titulo>
+        <data>14/03/2022</data>
+        <autor>
+            <id>PG47225</id>
+            <nome>Guilherme da Silva Amorim Martins</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>O trabalho desta semana consistia em construir um serviço na porta 4000, utilizando o dataset da escola de música, que responda a determinadas rotas pedidas.</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <url>db.json</url>
+            <texto>Dataset da escola de música</texto>
+        </resultado>
+        <resultado>
+            <url>file_Server.js</url>
+            <texto>Serviço que responde às rotas pedidas na porta 4000</texto>
+        </resultado>
+        
+    </resultados>
+</doc>
