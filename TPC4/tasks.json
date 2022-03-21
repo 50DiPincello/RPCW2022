@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "tarefa": "escola",
+      "tipo": "urgente",
+      "deadline": "2022-03-24",
+      "target": "50",
+      "status": "realizada",
+      "data_criada": "2022-3-21",
+      "id": 1
+    },
+    {
+      "tarefa": "amanha",
+      "tipo": "siga",
+      "deadline": "2022-03-22",
+      "target": "eu",
+      "status": "realizada",
+      "data_criada": "2022-3-21",
+      "id": 2
+    },
+    {
+      "tarefa": "correr",
+      "tipo": "ocasional",
+      "deadline": "2022-03-25",
+      "target": "namorada",
+      "status": "realizada",
+      "data_criada": "2022-3-21",
+      "id": 3
+    },
+    {
+      "tarefa": "d",
+      "tipo": "d",
+      "deadline": "2022-06-21",
+      "target": "d",
+      "status": "realizar",
+      "data_criada": "2022-3-21",
+      "id": 4
+    }
+  ]
+}

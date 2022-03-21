@@ -1,0 +1,16 @@
+{
+  "name": "package_todo.json",
+  "version": "1.0.0",
+  "description": "Lista de Tarefas",
+  "main": "todo.js",
+  "scripts": {
+    "test": "node todo.js",
+    "dev": "nodemon todo.js"
+  },
+  "author": "Gui",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "nodemon": "^2.0.15"
+  }
+}

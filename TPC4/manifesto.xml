@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC4: </titulo>
+        <data>21/03/2022</data>
+        <autor>
+            <id>PG47225</id>
+            <nome>Guilherme da Silva Amorim Martins</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>O trabalho desta semana consistia em construir um serviço na porta 7777, que criasse uma " to do list" numa única página web.</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <url>todo.js</url>
+            <texto>Serve para responder aos pedidos do cliente e para comunicar com a api do json-server.</texto>
+        </resultado>
+        <resultado>
+            <url>static.js</url>
+            <texto>Serve para responder a pedidos estáticos com imagens.</texto>
+        </resultado>
+        <resultado>
+            <url>tasks.json</url>
+            <texto>Servirá de dataset para acedermos às informações de cada tarefa.</texto>
+        </resultado>
+        
+    </resultados>
+</doc>
