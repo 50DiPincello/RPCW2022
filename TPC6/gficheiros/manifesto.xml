@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC6: </titulo>
+        <data>04/04/2022</data>
+        <autor>
+            <id>PG47225</id>
+            <nome>Guilherme da Silva Amorim Martins</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>O trabalho desta semana consistia novamente em implementar um servidor NodeJS.</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <url>app.js</url>
+            <texto>Serve para responder aos pedidos do cliente e para comunicar com a api do json-server. Para além disso, comunica com os routers do express.</texto>
+        </resultado>
+        <resultado>
+            <url>dbFiles.json</url>
+            <texto>Datase</texto>
+        </resultado>
+        
+        
+    </resultados>
+</doc>
