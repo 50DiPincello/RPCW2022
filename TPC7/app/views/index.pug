@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1.w3-center CLAV
+  table.w3-table-all.w3-bordered
+    tr
+      th.w3-center.w3-teal Código
+      th.w3-center.w3-teal Título
+    each entry in entrys
+      tr
+        td.w3-center
+          a(href="/classes/"+entry.codigo)= entry.codigo
+        td.w3-center= entry.titulo

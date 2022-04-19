@@ -1,0 +1,36 @@
+extends layout
+
+block content
+    h1.w3-center.w3-teal= data.titulo
+    h2.w3-center
+      b Desrição
+    p.w3-containter.w3-bordered= data.descricao
+    if data.filhos.length != 0
+      h3.w3-center Filhos
+      table.w3-table-all.w3-bordered 
+        tr
+          th.w3-center.w3-teal Código
+          th.w3-center.w3-teal Título
+        each filho in data.filhos
+          tr
+            td.w3-center
+              a(href="/classes/"+filho.codigo)= filho.codigo
+            td.w3-center= filho.titulo
+    if data.nivel == 3
+      h3.w3-center Processo Relacionados
+      table.w3-table-all.w3-bordered 
+        tr
+          th.w3-center.w3-teal Código
+          th.w3-center.w3-teal Título
+          th.w3-center.w3-teal Relação
+        each proc in data.processosRelacionados
+          if proc.idRel == 'eCruzadoCom' || proc.idRel == 'eComplementarDe' || proc.idRel == 'eSuplementoDe' || proc.idRel == 'eSuplementoPara'
+            tr
+              td.w3-center
+                a(href="/classes/"+proc.codigo)= proc.codigo
+              td.w3-center= proc.titulo
+              td.w3-center= proc.idRel
+    div.w3-container
+      a(href="/") Página Inicial
+      if data.pai.codigo
+        a(href="/classes/"+data.pai.codigo).w3-right Página Anterior
